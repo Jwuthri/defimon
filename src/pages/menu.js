@@ -182,6 +182,18 @@ const menus = [
             },
         ],
     },
+    {
+        id: 10,
+        name: 'Raise',
+        links: '#',
+        namesub: [
+            {
+                id: 1,
+                sub: 'Raise',
+                links: '/Raise'
+            },
+        ],
+    },
 ]
 
 export default menus;

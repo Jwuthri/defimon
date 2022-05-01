@@ -31,6 +31,7 @@ import FAQ from "./FAQ";
 import Contact01 from "./Contact01";
 import Contact02 from "./Contact02";
 import Nft from "./nft";
+import Raise from "./Raise";
 
 
 const routes = [
@@ -67,6 +68,7 @@ const routes = [
   { path: '/contact-01', component: <Contact01 />},
   { path: '/contact-02', component: <Contact02 />},
   { path: '/nft', component: <Nft />},
+  { path: '/raise', component: <Raise />},
 ]
 
 export default routes;

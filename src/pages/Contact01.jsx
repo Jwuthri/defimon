@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
-import img1 from '../assets/images/blog/thumb-8.png'
+import img1 from '../assets/images/slider/pikatchu2.png'
 
 const Contact01 = () => {
     return (
