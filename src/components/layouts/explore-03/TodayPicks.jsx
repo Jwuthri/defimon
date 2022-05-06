@@ -77,8 +77,8 @@ const TodayPicks = props => {
                                                             </div>
                                                         </div>
                                                         <div className="card-bottom">
-                                                            <Link to="#" onClick={() => setModalShow(true)} className="sc-button style bag fl-button pri-3 no-bg"><span>Place Bid</span></Link>
-                                                            <Link to="#" onClick={() => setModalShow(true)} className="view-history reload">Place Bid</Link>
+                                                            <Link to="#" onClick={() => setModalShow(true)} className="sc-button style bag fl-button pri-3 no-bg"><span>+</span></Link>
+                                                            <Link to="#" onClick={() => setModalShow(true)} className="sc-button style bag fl-button pri-3"><span>-</span></Link>
                                                         </div>
                                                     </div>   	
                                                             </div>
