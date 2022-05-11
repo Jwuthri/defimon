@@ -4,6 +4,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import CardModal from '../CardModal';
 
+const openInNewTab = (url) => {
+  const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+  if (newWindow) newWindow.opener = null
+}
+
+
 const TodayPicks = props => {
     const data = props.data;
 
@@ -59,17 +65,11 @@ const TodayPicks = props => {
                                                         </div>
                                                         <div className="card-title">
                                                             <h5 className="style2">{item.title}</h5>
-                                                            <div className="tags">{item.tags}</div>
+                                                            <Link to="#" onClick={() => openInNewTab(item.link)} className="tags">{item.tags}</Link>
                                                         </div>
                                                         <div className="meta-info">
                                                             <div className="author">
-                                                                {/*<div className="avatar">*/}
-                                                                {/*    <img src={item.imgAuthor} alt="axies" />*/}
-                                                                {/*</div>*/}
-                                                                {/*<div className="info">*/}
-                                                                {/*    <span>Owned By</span>*/}
-                                                                {/*    <h6> <Link to="/authors-02">{item.nameAuthor}</Link> </h6>*/}
-                                                                {/*</div>*/}
+
                                                             </div>
                                                             <div className="price">
                                                                 {/*<span>Current Bid</span>*/}
@@ -78,7 +78,7 @@ const TodayPicks = props => {
                                                         </div>
                                                         <div className="card-bottom">
                                                             <Link to="#" onClick={() => setModalShow(true)} className="sc-button style bag fl-button pri-3 no-bg"><span>+</span></Link>
-                                                            <Link to="#" onClick={() => setModalShow(true)} className="sc-button style bag fl-button pri-3"><span>-</span></Link>
+                                                            <Link to="#" onClick={() => setModalShow(true)} className="sc-button style bag fl-button pri-3 no-bg"><span>-</span></Link>
                                                         </div>
                                                     </div>   	
                                                             </div>

@@ -14,15 +14,14 @@ import popularCollectionData from '../assets/fake-data/data-popular-collection';
 import Create from '../components/layouts/Create';
 
 const Home01 = () => {
-
     return (
         <div className='home-1'>
             <Header />
             <Slider data={heroSliderData} />
-            <LiveAuction data={liveAuctionData} />
-            <TopSeller data={topSellerData} />
-            <TodayPicks data={todayPickData} />
-            <PopularCollection data={popularCollectionData} />
+            {/*<LiveAuction data={liveAuctionData} />*/}
+            {/*<TopSeller data={topSellerData} />*/}
+            {/*<TodayPicks data={todayPickData} />*/}
+            {/*<PopularCollection data={popularCollectionData} />*/}
             <Create />
             <Footer />
         </div>

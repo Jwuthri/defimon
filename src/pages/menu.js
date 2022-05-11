@@ -1,52 +1,5 @@
 const menus = [
     {
-        id: 1,
-        name: 'Home',
-        links: '#',
-        namesub: [
-            {
-                id: 1,
-                sub: 'Home 01',
-                links: '/'
-            },
-            {
-                id: 2,
-                sub: 'Home 02',
-                links: '/home-02'
-            },
-            {
-                id: 3,
-                sub: 'Home 03',
-                links: '/home-03'
-            },
-            {
-                id: 4,
-                sub: 'Home 04',
-                links: '/home-04'
-            },
-            {
-                id: 5,
-                sub: 'Home 05',
-                links: '/home-05'
-            },
-            {
-                id: 6,
-                sub: 'Home 06',
-                links: '/home-06'
-            },
-            {
-                id: 7,
-                sub: 'Home 07',
-                links: '/home-07'
-            },
-            {
-                id: 8,
-                sub: 'Home 08 (Special)',
-                links: '/home-08'
-            },
-        ]
-    },
-    {
         id: 2,
         name: 'Explore',
         links: '#',

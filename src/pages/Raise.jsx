@@ -23,15 +23,13 @@ const Raise = () => {
                                     <li>Raise</li>
                                 </ul>
                             </div>
-                            <p className="sub-title ct small mg-bt-20 pad-420">
-                                Gain experience by stacking your coins or Nfts
-                            </p>
                         </div>
                     </div>
                 </div>                    
             </section>
             <TodayPicks data={todayPickData} />
             <Footer />
+
         </div>
     );
 }
