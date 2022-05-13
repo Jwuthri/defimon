@@ -4,7 +4,7 @@ import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 import img1 from '../assets/images/slider/pikatchu2.png'
 
-const Contact01 = () => {
+const Contact = () => {
     return (
         <div>
             <Header />
@@ -14,13 +14,12 @@ const Contact01 = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="page-title-heading mg-bt-12">
-                                <h1 className="heading text-center">Contact 1</h1>
+                                <h1 className="heading text-center">Contact</h1>
                             </div>
                             <div className="breadcrumbs style2">
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
-                                    <li><Link to="#">Contact</Link></li>
-                                    <li>Contact 1</li>
+                                    <li>Contact</li>
                                 </ul>
                             </div>
                         </div>
@@ -67,4 +66,4 @@ const Contact01 = () => {
     );
 }
 
-export default Contact01;
+export default Contact;
