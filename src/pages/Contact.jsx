@@ -19,6 +19,7 @@ const Contact = () => {
                             <div className="breadcrumbs style2">
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
+                                    <li><Link to="#">Help</Link></li>
                                     <li>Contact</li>
                                 </ul>
                             </div>
