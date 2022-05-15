@@ -6,8 +6,6 @@ import logoheader from '../../assets/images/logo/logo.png'
 import logoheader2x from '../../assets/images/logo/logo_pokemon.png'
 import logodark from '../../assets/images/logo/logo_dark.png'
 import logodark2x from '../../assets/images/logo/logo_pokemon.png'
-import imgsun from '../../assets/images/icon/sun.png'
-import avt from '../../assets/images/avatar/avt-2.jpg'
 
 
 const Header = () => {
@@ -88,67 +86,54 @@ const Header = () => {
                                     </ul>
                                 </nav>
                                 <div className="flat-search-btn flex">
-                                    {/*<div className="header-search flat-show-search" id="s1">*/}
-                                    {/*    <Link to="#" className="show-search header-search-trigger" onClick={searchBtn}>*/}
-                                    {/*        <i className="far fa-search"></i>*/}
-                                    {/*    </Link>*/}
-                                    {/*    <div className="top-search" ref={btnSearch}>*/}
-                                    {/*        <form action="#" method="get" role="search" className="search-form">*/}
-                                    {/*            <input type="search" id="s" className="search-field" placeholder="Search..." name="s" title="Search for" required="" />*/}
-                                    {/*            <button className="search search-submit" type="submit" title="Search">*/}
-                                    {/*                <i className="icon-fl-search-filled"></i>*/}
-                                    {/*            </button>*/}
-                                    {/*        </form>*/}
-                                    {/*    </div>*/}
-                                    {/*</div>*/}
                                     <div className="sc-btn-top mg-r-12" id="site-header">
                                         <Link to="/wallet-connect" className="sc-button header-slider style style-1 wallet fl-button pri-1"><span>Wallet connect
                                         </span></Link>
                                     </div>
 
-                                    <div className="admin_active" id="header_admin">
-                                        <div className="header_avatar">
-                                            <div className="price">
-                                                <span>2.45 <strong>ETH</strong> </span>
-                                            </div>
-                                            <img
-                                                className="avatar"
-                                                src={avt}
-                                                alt="avatar"
-                                                />
-                                            <div className="avatar_popup mt-20">
-                                                <div className="d-flex align-items-center copy-text justify-content-between">
-                                                    <span> 13b9ebda035r178... </span>
-                                                    <Link to="/" className="ml-2">
-                                                        <i className="fal fa-copy"></i>
-                                                    </Link>
-                                                </div>
-                                                <div className="d-flex align-items-center mt-10">
-                                                    <img
-                                                        className="coin"
-                                                        src={imgsun}
-                                                        alt="/"
-                                                        />
-                                                    <div className="info ml-10">
-                                                        <p className="text-sm font-book text-gray-400">Balance</p>
-                                                        <p className="w-full text-sm font-bold text-green-500">16.58 ETH</p>
-                                                    </div>
-                                                </div>
-                                                <div className="hr"></div>
-                                                <div className="links mt-20">
-                                                    <Link to="#">
-                                                        <i className="fab fa-accusoft"></i> <span> My items</span>
-                                                    </Link>
-                                                    <a className="mt-10" href="/edit-profile">
-                                                        <i className="fas fa-pencil-alt"></i> <span> Edit Profile</span>
-                                                    </a>
-                                                    <a className="mt-10" href="/login" id="logout">
-                                                        <i className="fal fa-sign-out"></i> <span> Logout</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    {/*<div className="admin_active" id="header_admin">*/}
+                                    {/*    <div className="header_avatar">*/}
+                                    {/*        <div className="price">*/}
+                                    {/*            <span>2.45 <strong>ETH</strong> </span>*/}
+                                    {/*        </div>*/}
+                                    {/*        <img*/}
+                                    {/*            className="avatar"*/}
+                                    {/*            src={avt}*/}
+                                    {/*            alt="avatar"*/}
+                                    {/*            />*/}
+                                    {/*        <div className="avatar_popup mt-20">*/}
+                                    {/*            <div className="d-flex align-items-center copy-text justify-content-between">*/}
+                                    {/*                <span> 13b9ebda035r178... </span>*/}
+                                    {/*                <Link to="/" className="ml-2">*/}
+                                    {/*                    <i className="fal fa-copy"></i>*/}
+                                    {/*                </Link>*/}
+                                    {/*            </div>*/}
+                                    {/*            <div className="d-flex align-items-center mt-10">*/}
+                                    {/*                <img*/}
+                                    {/*                    className="coin"*/}
+                                    {/*                    src={imgsun}*/}
+                                    {/*                    alt="/"*/}
+                                    {/*                    />*/}
+                                    {/*                <div className="info ml-10">*/}
+                                    {/*                    <p className="text-sm font-book text-gray-400">Balance</p>*/}
+                                    {/*                    <p className="w-full text-sm font-bold text-green-500">16.58 ETH</p>*/}
+                                    {/*                 </div>*/}
+                                    {/*            </div>*/}
+                                    {/*            <div className="hr"></div>*/}
+                                    {/*            <div className="links mt-20">*/}
+                                    {/*                <Link to="#">*/}
+                                    {/*                    <i className="fab fa-accusoft"></i> <span> My items</span>*/}
+                                    {/*                </Link>*/}
+                                    {/*                <a className="mt-10" href="/edit-profile">*/}
+                                    {/*                    <i className="fas fa-pencil-alt"></i> <span> Edit Profile</span>*/}
+                                    {/*                </a>*/}
+                                    {/*                <a className="mt-10" href="/login" id="logout">*/}
+                                    {/*                    <i className="fal fa-sign-out"></i> <span> Logout</span>*/}
+                                    {/*                </a>*/}
+                                    {/*            </div>*/}
+                                    {/*        </div>*/}
+                                    {/*    </div>*/}
+                                    {/*</div>*/}
                                 </div>
                             </div> 
                         </div>

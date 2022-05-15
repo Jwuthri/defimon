@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import Nft from "./nft";
 import Raise from "./Raise";
 import DefiDollar from "./DefiDollar";
+import Arena from "./arena"
 
 
 const routes = [
@@ -15,6 +16,7 @@ const routes = [
   { path: '/nft', component: <Nft />},
   { path: '/defidollar', component: <DefiDollar />},
   { path: '/raise', component: <Raise />},
+  { path: '/arena', component: <Arena />},
 ]
 
 export default routes;
