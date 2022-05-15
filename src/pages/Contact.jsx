@@ -40,20 +40,20 @@ const Contact = () => {
                                 Drop Up A Message
                             </h2>
                             <h5 className="sub-title style-1">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.
+                                We will reply to you as soon as possible
                             </h5>
                             <div className="form-inner">
                                 <form id="contactform" noValidate="novalidate" className="form-submit" >
-                                    <input id="name" name="name" tabIndex="1" aria-required="true" type="text" placeholder="Your Full Name" required />
+                                    <input id="name" name="name" tabIndex="1" aria-required="true" type="text" placeholder="Your Name" required />
                                     <input id="email" name="email" tabIndex="2"  aria-required="true" type="email" placeholder="Your Email Address" required />
-                                    <div className="row-form style-2" id="subject">
-                                        <select>
-                                            <option value="1">Select subject</option>
-                                            <option value="2">Select subject</option>
-                                            <option value="3">Select subject</option>
-                                        </select>
-                                        <i className="icon-fl-down"></i>
-                                    </div>
+                                    {/*<div className="row-form style-2" id="subject">*/}
+                                    {/*    <select>*/}
+                                    {/*        <option value="1">Select subject</option>*/}
+                                    {/*        <option value="2">Select subject</option>*/}
+                                    {/*        <option value="3">Select subject</option>*/}
+                                    {/*    </select>*/}
+                                    {/*    <i className="icon-fl-down"></i>*/}
+                                    {/*</div>*/}
                                     <textarea id="message" name="message" tabIndex="3" aria-required="true" required placeholder="Message"></textarea>
                                     <button className="submit">Send message</button>
                                 </form>
